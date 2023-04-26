@@ -93,6 +93,10 @@ header .date {
 }
 @media (min-width: 768px) {
 
+    .cover {
+        background: url('assets/DSC_5252.jpg') no-repeat;
+        background-size: cover;
+    }
     .tagline {
         text-transform: uppercase;
     }
@@ -100,9 +104,12 @@ header .date {
         font-size: 7rem;;
     }
     .hero-text {
-        width: 50%;
-        margin: 0 auto;
+        width: 75%;
         border-radius: 4px;
+        position: relative;
+        top: -15rem;
+        margin: 0 auto;
+        text-align: center;
     }
 }
 /* ==== LOCATIONS STYLES ==== */
@@ -185,6 +192,9 @@ header .date {
     width: 100%;
     color: #d2ba87;
     padding-left: 2.5rem;
+}
+.faq h1 {
+    line-height: 1em;
 }
 .faq h2 {
     font-family: 'Muli', sans-serif;
