@@ -108,11 +108,10 @@ header .date {
         font-size: 7rem;;
     }
     .hero-text {
-        width: 50%;
+        width: 100vw;
         border-radius: 4px;
         position: absolute;
         bottom: 0;
-        left: 25vw;
     }
 
 }
