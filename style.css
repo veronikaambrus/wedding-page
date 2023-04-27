@@ -98,6 +98,7 @@ header .date {
         background-size: cover;
         position: relative;
         top: -10rem;
+        height: 100vh;
     }
     .tagline {
         text-transform: uppercase;
