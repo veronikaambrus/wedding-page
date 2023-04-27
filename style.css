@@ -92,11 +92,13 @@ header .date {
   margin: 0 .5rem;
 }
 @media (min-width: 768px) {
-
+ 
     .cover {
         background: url('assets/DSC_5252.jpg') no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: top;
         position: relative;
+        background-color: hsla(100,0%,0%,.6); ;
         
     }
     .tagline {
@@ -105,17 +107,16 @@ header .date {
     header h1 {
         font-size: 7rem;;
     }
-    .wrapper {
-        position: relative;
-    }
     .hero-text {
-        width: 75%;
+        width: 50%;
         border-radius: 4px;
         position: absolute;
-        top: -10rem;
-        left: 12.5vw;
+        bottom: 0;
+        left: 25vw;
     }
+
 }
+
 /* ==== LOCATIONS STYLES ==== */
 .location h2 {
    font-size: 1.5rem;
